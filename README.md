@@ -1,3 +1,6 @@
+Before run:
+A config.json must be added to the "src/main/resources/config.json" or "src/main/kotlin/config.json" before the application is run, as the file is ignored by gitignore.
+
 Task: currency convertor
 
 Create a CLI application that integrates with Fast Forex and lets the user convert currencies with exchange rates from past dates.
