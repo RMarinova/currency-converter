@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Main-Class: CurrencyConversionKt
+Class-Path: kotlinx-coroutines-core-jvm-1.6.4.jar junit-jupiter-api-5.6.
+ 3.jar ktor-websockets-jvm-2.1.0.jar ktor-serialization-jvm-2.1.0.jar ju
+ nit-jupiter-engine-5.6.3.jar ktor-websocket-serialization-jvm-2.1.0.jar
+  kotlinx-coroutines-jdk8-1.6.4.jar ktor-serialization-kotlinx-jvm-2.1.0
+ .jar ktor-network-jvm-2.1.0.jar kotlin-stdlib-1.9.21.jar ktor-io-jvm-2.
+ 1.0.jar kotlinx-serialization-core-jvm-1.5.0.jar annotations-13.0.jar a
+ piguardian-api-1.1.0.jar kotlin-stdlib-jdk8-1.8.0.jar kotlin-test-junit
+ 5-1.9.21.jar ktor-client-content-negotiation-jvm-2.1.0.jar ktor-client-
+ core-jvm-2.1.0.jar junit-platform-commons-1.6.3.jar ktor-http-cio-jvm-2
+ .1.0.jar ktor-events-jvm-2.1.0.jar opentest4j-1.2.0.jar kotlinx-seriali
+ zation-json-jvm-1.5.0.jar kotlin-test-1.9.21.jar slf4j-api-1.7.36.jar k
+ otlinx-coroutines-slf4j-1.6.4.jar kotlin-stdlib-jdk7-1.8.0.jar ktor-htt
+ p-jvm-2.1.0.jar ktor-utils-jvm-2.1.0.jar ktor-serialization-kotlinx-jso
+ n-jvm-2.1.0.jar ktor-client-cio-jvm-2.1.0.jar ktor-network-tls-jvm-2.1.
+ 0.jar junit-platform-engine-1.6.3.jar
+

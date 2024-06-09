@@ -1,0 +1,43 @@
+<component name="ArtifactManager">
+  <artifact name="currencyConverter:jar2">
+    <output-path>$PROJECT_DIR$/out/artifacts/currencyConverter_jar2</output-path>
+    <root id="root">
+      <element id="archive" name="currencyConverter.jar">
+        <element id="module-output" name="currencyConverter.main" />
+      </element>
+      <element id="library" level="project" name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.6.4" />
+      <element id="library" level="project" name="Gradle: org.junit.jupiter:junit-jupiter-api:5.6.3" />
+      <element id="library" level="project" name="Gradle: io.ktor:ktor-websockets-jvm:2.1.0" />
+      <element id="library" level="project" name="Gradle: io.ktor:ktor-serialization-jvm:2.1.0" />
+      <element id="library" level="project" name="Gradle: org.junit.jupiter:junit-jupiter-engine:5.6.3" />
+      <element id="library" level="project" name="Gradle: io.ktor:ktor-websocket-serialization-jvm:2.1.0" />
+      <element id="library" level="project" name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-jdk8:1.6.4" />
+      <element id="library" level="project" name="Gradle: io.ktor:ktor-serialization-kotlinx-jvm:2.1.0" />
+      <element id="library" level="project" name="Gradle: io.ktor:ktor-network-jvm:2.1.0" />
+      <element id="library" level="project" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.9.21" />
+      <element id="library" level="project" name="Gradle: io.ktor:ktor-io-jvm:2.1.0" />
+      <element id="library" level="project" name="Gradle: org.jetbrains.kotlinx:kotlinx-serialization-core-jvm:1.5.0" />
+      <element id="library" level="project" name="Gradle: org.jetbrains:annotations:13.0" />
+      <element id="library" level="project" name="Gradle: org.apiguardian:apiguardian-api:1.1.0" />
+      <element id="library" level="project" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.0" />
+      <element id="library" level="project" name="Gradle: org.jetbrains.kotlin:kotlin-test-junit5:1.9.21" />
+      <element id="library" level="project" name="Gradle: io.ktor:ktor-client-content-negotiation-jvm:2.1.0" />
+      <element id="library" level="project" name="Gradle: io.ktor:ktor-client-core-jvm:2.1.0" />
+      <element id="library" level="project" name="Gradle: org.junit.platform:junit-platform-commons:1.6.3" />
+      <element id="library" level="project" name="Gradle: io.ktor:ktor-http-cio-jvm:2.1.0" />
+      <element id="library" level="project" name="Gradle: io.ktor:ktor-events-jvm:2.1.0" />
+      <element id="library" level="project" name="Gradle: org.opentest4j:opentest4j:1.2.0" />
+      <element id="library" level="project" name="Gradle: org.jetbrains.kotlinx:kotlinx-serialization-json-jvm:1.5.0" />
+      <element id="library" level="project" name="Gradle: org.jetbrains.kotlin:kotlin-test:1.9.21" />
+      <element id="library" level="project" name="Gradle: org.slf4j:slf4j-api:1.7.36" />
+      <element id="library" level="project" name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-slf4j:1.6.4" />
+      <element id="library" level="project" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.8.0" />
+      <element id="library" level="project" name="Gradle: io.ktor:ktor-http-jvm:2.1.0" />
+      <element id="library" level="project" name="Gradle: io.ktor:ktor-utils-jvm:2.1.0" />
+      <element id="library" level="project" name="Gradle: io.ktor:ktor-serialization-kotlinx-json-jvm:2.1.0" />
+      <element id="library" level="project" name="Gradle: io.ktor:ktor-client-cio-jvm:2.1.0" />
+      <element id="library" level="project" name="Gradle: io.ktor:ktor-network-tls-jvm:2.1.0" />
+      <element id="library" level="project" name="Gradle: org.junit.platform:junit-platform-engine:1.6.3" />
+    </root>
+  </artifact>
+</component>
