@@ -27,7 +27,18 @@ data class ExchangeRateResponse(val base: String, val date: String, val ms: Int,
 @Serializable
 data class CurrenciesResponse(val currencies: Map<String, String>, val ms: Int)
 
-val apiKey = Json.decodeFromString<Map<String, String>>(File("src/main/resources/config.json").readText())["api_key"]
+fun fetchApiKey(): String? {
+    val primaryPath = "src/main/resources/config.json"
+    val secondaryPath = "src/main/kotlin/config.json"
+    val configFile = File(primaryPath).takeIf { it.exists() } ?: File(secondaryPath).takeIf { it.exists() }
+
+    return configFile?.let { file ->
+        val config = Json.decodeFromString<Map<String, String>>(file.readText())
+        config["api_key"]
+    }
+}
+
+val apiKey: String? = fetchApiKey()
 val client = HttpClient(CIO) {
     install(ContentNegotiation) {
         json(Json { ignoreUnknownKeys = true })
@@ -80,6 +91,7 @@ fun isValidAmount(amount: String): Boolean {
 }
 
 fun main(args: Array<String>) = runBlocking {
+
     if (args.isEmpty()) {
         println("Please provide a date in the format 'YYYY-MM-DD'.")
         return@runBlocking
@@ -148,7 +160,7 @@ fun main(args: Array<String>) = runBlocking {
 
         val conversion = Conversion(date, amount, baseCurrency, targetCurrency, convertedAmount)
         conversions.add(conversion)
-        
+
         val json = Json {
             prettyPrint = true
             prettyPrintIndent = "  "
