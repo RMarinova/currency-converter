@@ -1,1 +1,16 @@
-[]
+[
+  {
+    "date": "2024-06-06",
+    "amount": 50.22,
+    "base_currency": "BGN",
+    "target_currency": "EUR",
+    "converted_amount": 25.7
+  },
+  {
+    "date": "2024-06-06",
+    "amount": 20.33,
+    "base_currency": "EUR",
+    "target_currency": "BGN",
+    "converted_amount": 39.73
+  }
+]

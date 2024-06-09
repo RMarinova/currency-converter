@@ -148,8 +148,16 @@ fun main(args: Array<String>) = runBlocking {
 
         val conversion = Conversion(date, amount, baseCurrency, targetCurrency, convertedAmount)
         conversions.add(conversion)
+        
+        val json = Json {
+            prettyPrint = true
+            prettyPrintIndent = "  "
+        }
+
+        val jsonString = json.encodeToString(conversions)
+
+        File("conversions.json").writeText(jsonString)
     }
 
-    File("conversions.json").writeText(Json.encodeToString(conversions))
     client.close()
 }
